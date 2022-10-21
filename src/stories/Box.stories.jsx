@@ -30,3 +30,9 @@ export const smallBox = Template.bind({});
 smallBox.args = {
   label: "Small Box",
 };
+
+export const box = Template.bind({});
+
+box.args = {
+  label: "Box",
+};
