@@ -24,9 +24,3 @@ export const mediumBox = Template.bind({});
 mediumBox.args = {
   label: "Medium Box",
 };
-
-export const smallBox = Template.bind({});
-
-smallBox.args = {
-  label: "Small Box",
-};

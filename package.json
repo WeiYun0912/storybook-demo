@@ -8,8 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=2a7198cfc2e9"
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "react": "^18.2.0",
