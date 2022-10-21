@@ -36,3 +36,9 @@ export const box = Template.bind({});
 box.args = {
   label: "Box",
 };
+
+export const largeLargeBox = Template.bind({});
+
+largeLargeBox.args = {
+  label: "largeLargeBox",
+};
