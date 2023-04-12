@@ -6,22 +6,13 @@ const Box = ({ backgroundColor, label, size, show }) => {
   let scale = 1;
   if (size == "sm") scale = 0.5;
   if (size == "md") scale = 0.75;
-
   const style = {
     width: "200px",
     padding: `${scale * 0.5}rem ${scale * 1}rem`,
     backgroundColor,
   };
 
-  return (
-    <>
-      {show && (
-        <Center>
-          <div style={style}>{label}</div>
-        </Center>
-      )}
-    </>
-  );
+  return <>{show && <div style={style}>{label}</div>}</>;
 };
 
 export default Box;
@@ -35,5 +26,7 @@ Box.propTypes = {
 
 Box.defaultProps = {
   backgroundColor: "cyan",
+  label: "Hello I'm Box.",
   show: true,
+  size: "lg",
 };
